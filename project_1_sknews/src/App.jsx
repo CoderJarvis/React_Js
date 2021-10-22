@@ -1,12 +1,12 @@
 import React from 'react'
-import Navbar from './components/MyApp1/Navbar'
-import Entertainment from './components/MyApp1/Entertainment';
-import Sports from './components/MyApp1/Sports';
-import Business from './components/MyApp1/Business';
-import Technology from './components/MyApp1/Technology';
-import Health from './components/MyApp1/Health';
-import Science from './components/MyApp1/Science';
-import Home from './components/MyApp1/Home';
+import Navbar from './components/Navbar'
+import Entertainment from './components/Entertainment';
+import Sports from './components/Sports';
+import Business from './components/Business';
+import Technology from './components/Technology';
+import Health from './components/Health';
+import Science from './components/Science';
+import Home from './components/Home';
 // import Carousel from './components/Carousel';
 import {
     BrowserRouter as Router,
