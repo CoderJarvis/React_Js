@@ -1,9 +1,11 @@
 import React from 'react'
 import CardBootstrap from './CardBootstrap'
+import Heading from './Heading'
 
 export default function Health() {
     return (
-        <>
+        <>  
+            <Heading title="Health News"/>
              <div className=" netflix my-5">
             <CardBootstrap img="https://source.unsplash.com/700x500/?health" title="Health" content="Health is a state of complete physical, mental and social well-being and not merely the absence..." btn="Read more..." />
             <CardBootstrap img="https://source.unsplash.com/700x500/?food"  title="Health" content="a state of complete physical, mental and social well-being and not merely the absence" btn="Read more..." />

@@ -6,6 +6,7 @@ import Business from './components/MyApp1/Business';
 import Technology from './components/MyApp1/Technology';
 import Health from './components/MyApp1/Health';
 import Science from './components/MyApp1/Science';
+import Home from './components/MyApp1/Home';
 // import Carousel from './components/Carousel';
 import {
     BrowserRouter as Router,
@@ -24,6 +25,9 @@ export default function MyApp1() {
                 <Switch>
 
 
+                    <Route path="/home">
+                        <Home />
+                    </Route>
                     <Route path="/entertainment">
                         <Entertainment />
                     </Route>
