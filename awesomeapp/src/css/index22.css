@@ -1,0 +1,26 @@
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+/* App22 */
+.netflix{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.card-body {
+ 
+    text-align: center;
+}
+/* App28 */
+.slotMachine{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
