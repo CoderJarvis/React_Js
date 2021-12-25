@@ -1,0 +1,84 @@
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* App22 */
+.netflix {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-left: 16rem;
+    margin-right: 16rem;
+}
+
+.card-body {
+
+    text-align: center;
+}
+
+/* App28 */
+.slotMachine {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.leftright {
+    margin: 2rem 2rem;
+}
+
+/* header and fooet css */
+
+.kilimanjaro_bottom_header_one {
+    background-color: #111;
+}
+
+.section_padding_50 {
+    padding: 5px 0px;
+}
+
+#foot {
+    color: white;
+}
+
+/* left float and right float css */
+.contLeft {
+    height: 173.1vh;
+    width: 18vw;
+    background-color: rgb(111, 13, 240);
+    border-color: crimson;
+    float: left;
+}
+
+.contRight {
+    height: 173.1vh;
+    width: 18vw;
+    background-color: rgb(111, 13, 240);
+    border-color: crimson;
+    float: right;
+}
+
+.leftImg1 {
+    width: 100%;
+    margin-top: 195px;
+}
+
+.leftImg2 {
+    width: 100%;
+    height: 200px;
+}
+
+.leftD {
+    margin-top: 130.3px;
+    text-align: center;
+    color: chartreuse;
+    font-weight: bold;
+    font-style: italic;
+}
