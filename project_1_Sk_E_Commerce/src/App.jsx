@@ -8,6 +8,7 @@ import Grocery from './components/Grocery';
 import Electronics from './components/Electronics';
 import Furniture from './components/Furniture';
 
+import Home from './components/Home';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Left from './components/Left';
@@ -28,8 +29,11 @@ export default function MyApp1() {
                 <Navbar />
                 <Left />
                 <Right />
+                {/* <Home /> */}
                 <Switch>
-
+                    <Route path="/Home">
+                        <Home />
+                    </Route>
                     <Route path="/Technology">
                         <Technology />
                     </Route>
